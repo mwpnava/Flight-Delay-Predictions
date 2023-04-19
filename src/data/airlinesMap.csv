@@ -1,0 +1,15 @@
+IATA_CODE,AIRLINE_CODE,AIRLINE
+DL,0,Delta Air Lines Inc.
+AA,1,American Airlines Inc.
+US,2,US Airways Inc.
+AS,3,Alaska Airlines Inc.
+UA,4,United Air Lines Inc.
+NK,5,Spirit Air Lines
+B6,6,JetBlue Airways
+HA,7,Hawaiian Airlines Inc.
+OO,8,Skywest Airlines Inc.
+EV,9,Atlantic Southeast Airlines
+MQ,10,American Eagle Airlines Inc.
+WN,11,Southwest Airlines Co.
+F9,12,Frontier Airlines Inc.
+VX,13,Virgin America

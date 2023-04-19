@@ -1,0 +1,145 @@
+,MONTH_NAME,MONTH,AIRLINE_x,DELAYS_COUNT,ON_TIME_COUNT,TOTAL_COUNT,IATA_CODE,AIRLINE_y
+0,Apr,4,AA,16213,27966,44179,AA,American Airlines Inc.
+1,Apr,4,AS,3986,9899,13885,AS,Alaska Airlines Inc.
+2,Apr,4,B6,7346,14469,21815,B6,JetBlue Airways
+3,Apr,4,DL,21867,50029,71896,DL,Delta Air Lines Inc.
+4,Apr,4,EV,18016,30119,48135,EV,Atlantic Southeast Airlines
+5,Apr,4,F9,3635,3457,7092,F9,Frontier Airlines Inc.
+6,Apr,4,HA,2095,3984,6079,HA,Hawaiian Airlines Inc.
+7,Apr,4,MQ,9012,15716,24728,MQ,American Eagle Airlines Inc.
+8,Apr,4,NK,4303,5112,9415,NK,Spirit Air Lines
+9,Apr,4,OO,16959,31536,48495,OO,Skywest Airlines Inc.
+10,Apr,4,UA,15015,25850,40865,UA,United Air Lines Inc.
+11,Apr,4,WN,38734,66786,105520,WN,Southwest Airlines Co.
+12,Aug,8,AA,26902,51806,78708,AA,American Airlines Inc.
+13,Aug,8,AS,6414,9617,16031,AS,Alaska Airlines Inc.
+14,Aug,8,B6,9685,13821,23506,B6,JetBlue Airways
+15,Aug,8,DL,23478,57197,80675,DL,Delta Air Lines Inc.
+16,Aug,8,EV,16821,30847,47668,EV,Atlantic Southeast Airlines
+17,Aug,8,F9,3437,4666,8103,F9,Frontier Airlines Inc.
+18,Aug,8,HA,3398,3452,6850,HA,Hawaiian Airlines Inc.
+19,Aug,8,MQ,6909,16207,23116,MQ,American Eagle Airlines Inc.
+20,Aug,8,NK,5580,4647,10227,NK,Spirit Air Lines
+21,Aug,8,OO,19958,31828,51786,OO,Skywest Airlines Inc.
+22,Aug,8,UA,16154,28787,44941,UA,United Air Lines Inc.
+23,Aug,8,WN,39855,66832,106687,WN,Southwest Airlines Co.
+24,Dec,12,AA,28195,46883,75078,AA,American Airlines Inc.
+25,Dec,12,AS,4838,9472,14310,AS,Alaska Airlines Inc.
+26,Dec,12,B6,11084,12113,23197,B6,JetBlue Airways
+27,Dec,12,DL,21740,48548,70288,DL,Delta Air Lines Inc.
+28,Dec,12,EV,15608,26822,42430,EV,Atlantic Southeast Airlines
+29,Dec,12,F9,3117,4901,8018,F9,Frontier Airlines Inc.
+30,Dec,12,HA,1820,4435,6255,HA,Hawaiian Airlines Inc.
+31,Dec,12,MQ,5670,14421,20091,MQ,American Eagle Airlines Inc.
+32,Dec,12,NK,5238,5235,10473,NK,Spirit Air Lines
+33,Dec,12,OO,20458,25526,45984,OO,Skywest Airlines Inc.
+34,Dec,12,UA,14444,28110,42554,UA,United Air Lines Inc.
+35,Dec,12,WN,44708,60861,105569,WN,Southwest Airlines Co.
+36,Feb,2,AA,15251,21929,37180,AA,American Airlines Inc.
+37,Feb,2,AS,3967,8061,12028,AS,Alaska Airlines Inc.
+38,Feb,2,B6,10013,8370,18383,B6,JetBlue Airways
+39,Feb,2,DL,21568,37502,59070,DL,Delta Air Lines Inc.
+40,Feb,2,EV,19248,22757,42005,EV,Atlantic Southeast Airlines
+41,Feb,2,F9,3354,2337,5691,F9,Frontier Airlines Inc.
+42,Feb,2,HA,3031,2742,5773,HA,Hawaiian Airlines Inc.
+43,Feb,2,MQ,13074,9918,22992,MQ,American Eagle Airlines Inc.
+44,Feb,2,NK,4122,3691,7813,NK,Spirit Air Lines
+45,Feb,2,OO,18608,23841,42449,OO,Skywest Airlines Inc.
+46,Feb,2,UA,15341,19831,35172,UA,United Air Lines Inc.
+47,Feb,2,WN,33716,52828,86544,WN,Southwest Airlines Co.
+48,Jan,1,AA,17957,25117,43074,AA,American Airlines Inc.
+49,Jan,1,AS,4462,8689,13151,AS,Alaska Airlines Inc.
+50,Jan,1,B6,8643,11839,20482,B6,JetBlue Airways
+51,Jan,1,DL,17589,46087,63676,DL,Delta Air Lines Inc.
+52,Jan,1,EV,20612,27472,48084,EV,Atlantic Southeast Airlines
+53,Jan,1,F9,3543,3192,6735,F9,Frontier Airlines Inc.
+54,Jan,1,HA,2831,3577,6408,HA,Hawaiian Airlines Inc.
+55,Jan,1,MQ,14823,12745,27568,MQ,American Eagle Airlines Inc.
+56,Jan,1,NK,4116,4516,8632,NK,Spirit Air Lines
+57,Jan,1,OO,20980,25675,46655,OO,Skywest Airlines Inc.
+58,Jan,1,UA,15351,22012,37363,UA,United Air Lines Inc.
+59,Jan,1,WN,37826,60234,98060,WN,Southwest Airlines Co.
+60,Jul,7,AA,28772,51878,80650,AA,American Airlines Inc.
+61,Jul,7,AS,5499,10232,15731,AS,Alaska Airlines Inc.
+62,Jul,7,B6,9013,14734,23747,B6,JetBlue Airways
+63,Jul,7,DL,24497,55889,80386,DL,Delta Air Lines Inc.
+64,Jul,7,EV,18841,30480,49321,EV,Atlantic Southeast Airlines
+65,Jul,7,F9,4004,4034,8038,F9,Frontier Airlines Inc.
+66,Jul,7,HA,2791,4145,6936,HA,Hawaiian Airlines Inc.
+67,Jul,7,MQ,8133,15914,24047,MQ,American Eagle Airlines Inc.
+68,Jul,7,NK,5083,5119,10202,NK,Spirit Air Lines
+69,Jul,7,OO,20178,31480,51658,OO,Skywest Airlines Inc.
+70,Jul,7,UA,19220,26653,45873,UA,United Air Lines Inc.
+71,Jul,7,WN,51303,61108,112411,WN,Southwest Airlines Co.
+72,Jun,6,AA,16886,26728,43614,AA,American Airlines Inc.
+73,Jun,6,AS,4952,10033,14985,AS,Alaska Airlines Inc.
+74,Jun,6,B6,7605,14641,22246,B6,JetBlue Airways
+75,Jun,6,DL,25751,51009,76760,DL,Delta Air Lines Inc.
+76,Jun,6,EV,21445,25709,47154,EV,Atlantic Southeast Airlines
+77,Jun,6,F9,3947,3867,7814,F9,Frontier Airlines Inc.
+78,Jun,6,HA,2424,4239,6663,HA,Hawaiian Airlines Inc.
+79,Jun,6,MQ,10151,13840,23991,MQ,American Eagle Airlines Inc.
+80,Jun,6,NK,5981,3344,9325,NK,Spirit Air Lines
+81,Jun,6,OO,20293,28765,49058,OO,Skywest Airlines Inc.
+82,Jun,6,UA,22194,22551,44745,UA,United Air Lines Inc.
+83,Jun,6,WN,49663,57713,107376,WN,Southwest Airlines Co.
+84,Mar,3,AA,18683,25757,44440,AA,American Airlines Inc.
+85,Mar,3,AS,4506,9690,14196,AS,Alaska Airlines Inc.
+86,Mar,3,B6,9315,12712,22027,B6,JetBlue Airways
+87,Mar,3,DL,24280,49227,73507,DL,Delta Air Lines Inc.
+88,Mar,3,EV,21128,30747,51875,EV,Atlantic Southeast Airlines
+89,Mar,3,F9,3854,3026,6880,F9,Frontier Airlines Inc.
+90,Mar,3,HA,2959,3335,6294,HA,Hawaiian Airlines Inc.
+91,Mar,3,MQ,12031,14031,26062,MQ,American Eagle Airlines Inc.
+92,Mar,3,NK,4039,5215,9254,NK,Spirit Air Lines
+93,Mar,3,OO,17748,31687,49435,OO,Skywest Airlines Inc.
+94,Mar,3,UA,16434,26437,42871,UA,United Air Lines Inc.
+95,Mar,3,WN,39855,66999,106854,WN,Southwest Airlines Co.
+96,May,5,AA,15660,27951,43611,AA,American Airlines Inc.
+97,May,5,AS,4779,9826,14605,AS,Alaska Airlines Inc.
+98,May,5,B6,6158,16194,22352,B6,JetBlue Airways
+99,May,5,DL,19588,54883,74471,DL,Delta Air Lines Inc.
+100,May,5,EV,18194,29744,47938,EV,Atlantic Southeast Airlines
+101,May,5,F9,3858,4217,8075,F9,Frontier Airlines Inc.
+102,May,5,HA,2347,4071,6418,HA,Hawaiian Airlines Inc.
+103,May,5,MQ,8690,15715,24405,MQ,American Eagle Airlines Inc.
+104,May,5,NK,5475,4325,9800,NK,Spirit Air Lines
+105,May,5,OO,18239,30889,49128,OO,Skywest Airlines Inc.
+106,May,5,UA,17492,26372,43864,UA,United Air Lines Inc.
+107,May,5,WN,41249,65081,106330,WN,Southwest Airlines Co.
+108,Nov,11,AA,24024,49108,73132,AA,American Airlines Inc.
+109,Nov,11,AS,4533,9338,13871,AS,Alaska Airlines Inc.
+110,Nov,11,B6,7414,14128,21542,B6,JetBlue Airways
+111,Nov,11,DL,18041,54097,72138,DL,Delta Air Lines Inc.
+112,Nov,11,EV,14625,27019,41644,EV,Atlantic Southeast Airlines
+113,Nov,11,F9,3669,4044,7713,F9,Frontier Airlines Inc.
+114,Nov,11,HA,1569,4443,6012,HA,Hawaiian Airlines Inc.
+115,Nov,11,MQ,5031,14300,19331,MQ,American Eagle Airlines Inc.
+116,Nov,11,NK,4469,5581,10050,NK,Spirit Air Lines
+117,Nov,11,OO,17205,29268,46473,OO,Skywest Airlines Inc.
+118,Nov,11,UA,11656,30580,42236,UA,United Air Lines Inc.
+119,Nov,11,WN,35338,67542,102880,WN,Southwest Airlines Co.
+120,Oct,10,AA,22622,53759,76381,AA,American Airlines Inc.
+121,Oct,10,AS,4502,9912,14414,AS,Alaska Airlines Inc.
+122,Oct,10,B6,8149,13589,21738,B6,JetBlue Airways
+123,Oct,10,DL,15841,59617,75458,DL,Delta Air Lines Inc.
+124,Oct,10,EV,15307,29824,45131,EV,Atlantic Southeast Airlines
+125,Oct,10,F9,2548,5537,8085,F9,Frontier Airlines Inc.
+126,Oct,10,HA,2245,3981,6226,HA,Hawaiian Airlines Inc.
+127,Oct,10,MQ,4738,16923,21661,MQ,American Eagle Airlines Inc.
+128,Oct,10,NK,4253,5881,10134,NK,Spirit Air Lines
+129,Oct,10,OO,16664,31822,48486,OO,Skywest Airlines Inc.
+130,Oct,10,UA,11730,33946,45676,UA,United Air Lines Inc.
+131,Oct,10,WN,30715,73338,104053,WN,Southwest Airlines Co.
+132,Sep,9,AA,21026,51862,72888,AA,American Airlines Inc.
+133,Sep,9,AS,4515,9717,14232,AS,Alaska Airlines Inc.
+134,Sep,9,B6,7573,13434,21007,B6,JetBlue Airways
+135,Sep,9,DL,16600,55350,71950,DL,Delta Air Lines Inc.
+136,Sep,9,EV,13372,29995,43367,EV,Atlantic Southeast Airlines
+137,Sep,9,F9,2266,5580,7846,F9,Frontier Airlines Inc.
+138,Sep,9,HA,2669,3458,6127,HA,Hawaiian Airlines Inc.
+139,Sep,9,MQ,5243,15556,20799,MQ,American Eagle Airlines Inc.
+140,Sep,9,NK,4228,5640,9868,NK,Spirit Air Lines
+141,Sep,9,OO,15145,32062,47207,OO,Skywest Airlines Inc.
+142,Sep,9,UA,11196,30406,41602,UA,United Air Lines Inc.
+143,Sep,9,WN,27805,72314,100119,WN,Southwest Airlines Co.
