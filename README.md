@@ -20,8 +20,8 @@ This project contains 3 folders:
 
 ### Execution
 1. Navigate to web_app folder
-2. Execute the following command: streamlit run app_analytics.py, this opens a web page on your local host that displays vizualiations related to our project
-3. Execute the following command: streamlit run app_prediction.py, this opens an interactive user interface that allows the user to select predictor values then click on "predict" to get the prediction from the Machine Learning model
+2. Execute the following command: streamlit run <code>app_analytics.py</code>, this opens a web page on your local host that displays vizualiations related to our project
+3. Execute the following command: streamlit run <code>app_prediction.py</code>, this opens an interactive user interface that allows the user to select predictor values then click on "predict" to get the prediction from the Machine Learning model
 
 ### Datasets & Files
 - Original flights dataset from [Kaggle](https://www.kaggle.com/datasets/usdot/flight-delays?select=flights.csv/)
