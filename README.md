@@ -11,7 +11,7 @@ by web-scraping [weather site](https://www.wunderground.com/history/). We implem
 This project contains 3 folders:
 - Experiments contains all the code that allow us to analyze the dataset, perform web scrapping and make informed decisions about the project (Tableau instead of Python script, use sample datasets instead of large dataset, Mapping airline and airports names with ML code)
 - ML_model contains the code related to Random Forest algorithm to make predictions
-- Web_app contains the files necessary to run the web application
+- src contains the files necessary to run the web application
 
 ### Installation
 1. Install Python3 on local machine
@@ -19,9 +19,10 @@ This project contains 3 folders:
 
 
 ### Execution
-1. Navigate to web_app folder
-2. Execute the following command: <code>astreamlit run app_analytics.py</code>, this opens a web page on your local host that displays vizualiations related to our project
-3. Execute the following command: <code>streamlit run app_prediction.py</code>, this opens an interactive user interface that allows the user to select predictor values then click on "predict" to get the prediction from the Machine Learning model
+1. Navigate to src folder
+2. Execute the following command: <code>streamlit run app_analytics.py</code>, this opens a web page on your local host that displays vizualiations related to our project
+3. Download the pickle file flight_delay.pkl from the following [link](https://gatech.app.box.com/folder/203936189681?s=afakemwcnac3hrhvj29fclh5w5tfbfkc) and make sure this file is in the src folder
+4. Execute the following command: <code>streamlit run app_prediction.py</code>, this opens an interactive user interface that allows the user to select predictor values then click on "predict" to get the prediction from the Machine Learning model
 
 ### Datasets & Files
 - Original flights dataset from [Kaggle](https://www.kaggle.com/datasets/usdot/flight-delays?select=flights.csv/)
