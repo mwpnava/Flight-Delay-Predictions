@@ -21,7 +21,7 @@ This project contains 2 folders:
 1. Navigate to code folder
 2. Execute the following command: <code>streamlit run app_analytics.py</code>, this opens a web page on your local host that displays vizualiations related to our project
 3. Execute the following command: <code>streamlit run app_prediction.py</code>, this opens an interactive user interface that allows the user to select predictor values then click on "predict" to get the prediction from the Machine Learning model 
-4. It is important to note that there might "gray overlap" on the screen as the user makes selection  and a "running" icon  to the top right of the screen. The user can still continue to make selections even when the running icon is not complete.
+4. It is important to note that there might "gray overlap" on the screen as the user makes selection  and a "running" icon  to the top right of the screen. The user can still continue to make selections even if the running icon is still active.
 
 ### Datasets & Files
 - Original flights dataset from [Kaggle](https://www.kaggle.com/datasets/usdot/flight-delays?select=flights.csv/)
