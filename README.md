@@ -21,7 +21,7 @@ This project contains 3 folders:
 ### Execution
 1. Navigate to src folder
 2. Execute the following command: <code>streamlit run app_analytics.py</code>, this opens a web page on your local host that displays vizualiations related to our project
-3. Download the pickle file from the following [link](https://gatech.app.box.com/folder/203936189681?s=afakemwcnac3hrhvj29fclh5w5tfbfkc):
+3. Download the pickle file flight_delay.pkl from the following [link](https://gatech.app.box.com/folder/203936189681?s=afakemwcnac3hrhvj29fclh5w5tfbfkc) and make sure this file is in the src folder
 4. Execute the following command: <code>streamlit run app_prediction.py</code>, this opens an interactive user interface that allows the user to select predictor values then click on "predict" to get the prediction from the Machine Learning model
 
 ### Datasets & Files
