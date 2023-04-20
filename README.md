@@ -15,7 +15,7 @@ This project contains 3 folders:
 
 ### Installation
 1. Install Python3 on local machine
-2. Use the following commands to install necessary packages:  <code> pip install streamlit, pip install request, pip install streamlit_lottie </code>
+2. Use the following commands to install necessary packages:  <code> pip install streamlit </code>, <code>pip install request</code>, <code>pip install streamlit_lottie </code>
 
 
 ### Execution
