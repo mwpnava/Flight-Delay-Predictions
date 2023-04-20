@@ -22,7 +22,8 @@ This project contains 3 folders:
 1. Navigate to src folder
 2. Execute the following command: <code>streamlit run app_analytics.py</code>, this opens a web page on your local host that displays vizualiations related to our project
 3. Download the pickle file flight_delay.pkl from the following [link](https://gatech.app.box.com/folder/203936189681?s=afakemwcnac3hrhvj29fclh5w5tfbfkc) and make sure this file is in the src folder
-4. Execute the following command: <code>streamlit run app_prediction.py</code>, this opens an interactive user interface that allows the user to select predictor values then click on "predict" to get the prediction from the Machine Learning model
+4. Execute the following command: <code>streamlit run app_prediction.py</code>, this opens an interactive user interface that allows the user to select predictor values then click on "predict" to get the prediction from the Machine Learning model 
+5. It is important to note that there might "gray overlap" on the screen as the user makes selection  and a "running" icon  to the top right of the screen. The user can still continue to make selections even when the running icon is not complete.
 
 ### Datasets & Files
 - Original flights dataset from [Kaggle](https://www.kaggle.com/datasets/usdot/flight-delays?select=flights.csv/)
