@@ -8,10 +8,9 @@ and predicting flight delays. One dataset has a year’s worth of all US flight 
 by web-scraping [weather site](https://www.wunderground.com/history/). We implemented a model to predict weather-induced airline delays using ML algorithm random Forest.
 
 ### Description
-This project contains 3 folders:
-- Experiments contains all the code that allow us to analyze the dataset, perform web scrapping and make informed decisions about the project (Tableau instead of Python script, use sample datasets instead of large dataset, Mapping airline and airports names with ML code)
-- ML_model contains the code related to Random Forest algorithm to make predictions
-- src contains the files necessary to run the web application
+This project contains 2 folders:
+- Doc contains  the project's final report and poster
+- code contains the files necessary to run the web application
 
 ### Installation
 1. Install Python3 on local machine
@@ -19,7 +18,7 @@ This project contains 3 folders:
 
 
 ### Execution
-1. Navigate to src folder
+1. Navigate to code folder
 2. Execute the following command: <code>streamlit run app_analytics.py</code>, this opens a web page on your local host that displays vizualiations related to our project
 3. Execute the following command: <code>streamlit run app_prediction.py</code>, this opens an interactive user interface that allows the user to select predictor values then click on "predict" to get the prediction from the Machine Learning model 
 4. It is important to note that there might "gray overlap" on the screen as the user makes selection  and a "running" icon  to the top right of the screen. The user can still continue to make selections even when the running icon is not complete.
