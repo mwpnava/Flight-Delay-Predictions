@@ -12,7 +12,7 @@ from PIL import Image
 ### ---- READ BEFOR RUNNING: --- ### 
 # You need to intsall the following in the terminal to run the app:
 # pip install streamlit
-# pip install request
+# pip install requests
 # pip install streamlit_lottie
 
 
@@ -74,7 +74,7 @@ def setVariables(df):
 
 # --- WEB SITE LAYOUT CONFIGURATION --- #
 st.set_page_config(
-    page_title="Georgia Tech Final Project", 
+    page_title="Georgia Tech - Flight Delay Prediction", 
     page_icon=":tada", 
     layout="centered")
 
@@ -122,7 +122,7 @@ with st.container():
     # CHART: Total Fligh Arrivals per Status
     def main():
         html_temp = """
-        <div class='tableauPlaceholder' id='viz1681871236207' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1682111299602' style='position: relative'>
             <noscript>
                 <a href='#'>
                     <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015TotalFlightArrivalsintheUS&#47;Dashboard1&#47;1_rss.png' style='border: none' />
@@ -135,19 +135,18 @@ with st.container():
                 <param name='name' value='2015TotalFlightArrivalsintheUS&#47;Dashboard1' />
                 <param name='tabs' value='no' />
                 <param name='toolbar' value='yes' />
-                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015TotalFlightArrivalsintheUS&#47;Dashboard1&#47;1.png' /> <
-                param name='animate_transition' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015TotalFlightArrivalsintheUS&#47;Dashboard1&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
                 <param name='display_static_image' value='yes' />
                 <param name='display_spinner' value='yes' />
                 <param name='display_overlay' value='yes' />
                 <param name='display_count' value='yes' />
-                <param name='language' value='es-ES' />
-                <param name='filter' value='publish=yes' />
+                <param name='language' value='en-US' />
             </object>
         </div>                
         
         <script type='text/javascript'>                    
-            var divElement = document.getElementById('viz1681871236207');                    
+            var divElement = document.getElementById('viz1682111299602');                    
             var vizElement = divElement.getElementsByTagName('object')[0];                    
             if ( divElement.offsetWidth > 800 ) { 
                 vizElement.style.width='800px';
@@ -245,39 +244,40 @@ with st.container():
     st.write('##')
     st.write(
         '''
-        The belo map displays the number of fligth delays per state registered in 2015. This interactive chart allows to visualize the amount of flight delays registered per month per state.
-        Califonia and Texas consistently regstered the greatest amount of fligth delays.
+        The below map displays the number of flight delays per state registered in 2015. This interactive chart allows to visualizing the number of flight delays registered per month per state.
+        Califonia and Texas consistently registered the greatest amount of flight delays.
+        
+        Use the drop-down list below and select a month to see the states with the highest amount of reported arrival delayed flights.
         '''
     )
 
     def main():
         html_temp = """
-        <div class='tableauPlaceholder' id='viz1681661524671' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1682113978618' style='position: relative'>
             <noscript>
                 <a href='#'>
-                    <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015FlightDelays-Top5Airports&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+                    <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015FlightDelaysperState&#47;Dashboard1&#47;1_rss.png' style='border: none' />
                 </a>
             </noscript>
             <object class='tableauViz'  style='display:none;'>
-                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />  
                 <param name='embed_code_version' value='3' /> 
                 <param name='site_root' value='' />
-                <param name='name' value='2015FlightDelays-Top5Airports&#47;Dashboard1' />
+                <param name='name' value='2015FlightDelaysperState&#47;Dashboard1' />
                 <param name='tabs' value='no' />
                 <param name='toolbar' value='yes' />
-                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015FlightDelays-Top5Airports&#47;Dashboard1&#47;1.png' /> 
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015FlightDelaysperState&#47;Dashboard1&#47;1.png' /> 
                 <param name='animate_transition' value='yes' />
                 <param name='display_static_image' value='yes' />
                 <param name='display_spinner' value='yes' />
                 <param name='display_overlay' value='yes' />
                 <param name='display_count' value='yes' />
-                <param name='language' value='es-ES' />
-                <param name='filter' value='publish=yes' />
+                <param name='language' value='en-US' />
             </object>
         </div>                
         
-        <script type='text/javascript'>                   
-            var divElement = document.getElementById('viz1681661524671');                    
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1682113978618');                    
             var vizElement = divElement.getElementsByTagName('object')[0];                    
             if ( divElement.offsetWidth > 800 ) { 
                 vizElement.style.width='800px';
@@ -304,39 +304,40 @@ with st.container():
     st.write('##')
     st.write(
         '''
-        The airlines accumulating the most delays are Southwest Airlines, Delta Airlines and American Airlines. 
-        This is not very surprising , given their relatively low-cost and volume with tighter margins.
+        The airlines accumulating the most delays are Southwest Airlines, Delta Airlines, and American Airlines. 
+        This is not very surprising, given their relatively low cost and volume with tighter margins.
+
+        Use the drop-down list below and select a state(s) to see the airlines with the highest amount of reported arrival delayed flights.
         '''
     )
 
     def main():
         html_temp = """
-        <div class='tableauPlaceholder' id='viz1681663364851' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1682114337467' style='position: relative'>
             <noscript>
                 <a href='#'>
-                    <img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015FlightDelays-Top5Airports&#47;Dashboard2&#47;1_rss.png' style='border: none' />
+                    <img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015FlightDelaysperAirline&#47;Dashboard2&#47;1_rss.png' style='border: none' />
                 </a>
             </noscript>
             <object class='tableauViz'  style='display:none;'>
                 <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                 <param name='embed_code_version' value='3' /> 
                 <param name='site_root' value='' />
-                <param name='name' value='2015FlightDelays-Top5Airports&#47;Dashboard2' />
+                <param name='name' value='2015FlightDelaysperAirline&#47;Dashboard2' />
                 <param name='tabs' value='no' />
                 <param name='toolbar' value='yes' />
-                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015FlightDelays-Top5Airports&#47;Dashboard2&#47;1.png' /> 
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015FlightDelaysperAirline&#47;Dashboard2&#47;1.png' /> 
                 <param name='animate_transition' value='yes' />
                 <param name='display_static_image' value='yes' />
                 <param name='display_spinner' value='yes' />
                 <param name='display_overlay' value='yes' />
                 <param name='display_count' value='yes' />
-                <param name='language' value='es-ES' />
-                <param name='filter' value='publish=yes' />
+                <param name='language' value='en-US' />
             </object>
         </div>                
         
         <script type='text/javascript'>                    
-            var divElement = document.getElementById('viz1681663364851');                    
+            var divElement = document.getElementById('viz1682114337467');                    
             var vizElement = divElement.getElementsByTagName('object')[0];                    
             if ( divElement.offsetWidth > 800 ) { 
                 vizElement.style.width='800px';
@@ -371,13 +372,14 @@ with st.container():
 
     def main():
         html_temp = """
-        <div class='tableauPlaceholder' id='viz1681663097105' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1682111544986' style='position: relative'>
             <noscript>
                 <a href='#'>
                     <img alt='Dashboard 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2015FlightDelays-Top5Airports&#47;Dashboard3&#47;1_rss.png' style='border: none' />
                 </a>
             </noscript>
-            <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                 <param name='embed_code_version' value='3' /> 
                 <param name='site_root' value='' />
                 <param name='name' value='2015FlightDelays-Top5Airports&#47;Dashboard3' />
@@ -389,13 +391,12 @@ with st.container():
                 <param name='display_spinner' value='yes' />
                 <param name='display_overlay' value='yes' />
                 <param name='display_count' value='yes' />
-                <param name='language' value='es-ES' />
-                <param name='filter' value='publish=yes' />
+                <param name='language' value='en-US' />
             </object>
         </div>                
         
         <script type='text/javascript'>                    
-            var divElement = document.getElementById('viz1681663097105');                    
+            var divElement = document.getElementById('viz1682111544986');                    
             var vizElement = divElement.getElementsByTagName('object')[0];                    
             if ( divElement.offsetWidth > 800 ) { 
                 vizElement.style.width='800px';
@@ -423,39 +424,37 @@ with st.container():
     st.write('##')
     st.write(
         '''
-        There is not much variation when it comes to month or day of the week, but we can observe that February, July, June, and December are the months with the highest amount of delays. This can probably be explained by the fact that December and February are busy travel months during the winter, due to cheaper costs, and lower temperatures can definitely affect flight departures. Not only is June a summer month, a time when there is heavy traffic volume, but it is also during peak tornado season (these are among the top causes for flight delays).
-        
+        There is not much variation when it comes to the month or day of the week, but we can observe that February, July, June and December are the months with the highest amount of delays. This can probably be explained by the fact that December and February are busy travel months during the winter, due to cheaper costs, and lower temperatures can definitely affect flight departures. Not only is June a summer month, a time when there is heavy traffic volume, but it is also during peak tornado season (these are among the top causes of flight delays).
         '''
     )
 
     def main():
         html_temp = """
-        <div class='tableauPlaceholder' id='viz1681916739390' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1682111579408' style='position: relative'>
             <noscript>
                 <a href='#'>
-                    <img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyMonth&#47;Dashboard2&#47;1_rss.png' style='border: none' />
+                    <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightsDelaysbyMonth&#47;Dashboard1&#47;1_rss.png' style='border: none' />
                 </a>
             </noscript>
             <object class='tableauViz'  style='display:none;'>
                 <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                 <param name='embed_code_version' value='3' /> 
                 <param name='site_root' value='' />
-                <param name='name' value='MeanFlightDelaysbyMonth&#47;Dashboard2' />
+                <param name='name' value='MeanFlightsDelaysbyMonth&#47;Dashboard1' />
                 <param name='tabs' value='no' />
                 <param name='toolbar' value='yes' />
-                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyMonth&#47;Dashboard2&#47;1.png' /> 
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightsDelaysbyMonth&#47;Dashboard1&#47;1.png' /> 
                 <param name='animate_transition' value='yes' />
                 <param name='display_static_image' value='yes' />
                 <param name='display_spinner' value='yes' />
                 <param name='display_overlay' value='yes' />
                 <param name='display_count' value='yes' />
-                <param name='language' value='es-ES' />
-                <param name='filter' value='publish=yes' />
+                <param name='language' value='en-US' />
             </object>
         </div>                
         
         <script type='text/javascript'>                    
-            var divElement = document.getElementById('viz1681916739390');                    
+            var divElement = document.getElementById('viz1682111579408');                    
             var vizElement = divElement.getElementsByTagName('object')[0];                    
             if ( divElement.offsetWidth > 800 ) { 
                 vizElement.style.width='800px';
@@ -481,39 +480,38 @@ with st.container():
     st.write('##')
     st.write(
         '''
-        Monday is the day of the week with the highest average arrival delay, so the heaviest traffic volume occur on Mondays which could potentially lead to delays.
+        Monday is the day of the week with the highest average arrival delay. The heaviest traffic volume occurs on Mondays which could lead to potentially more delays
         
         '''
     )
 
     def main():
         html_temp = """
-        <div class='tableauPlaceholder' id='viz1681918361682' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1682113033059' style='position: relative'>
             <noscript>
                 <a href='#'>
-                    <img alt='Dashboard 4 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyMonth&#47;Dashboard4&#47;1_rss.png' style='border: none' />
+                    <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyDayofWeek&#47;Dashboard1&#47;1_rss.png' style='border: none' />
                 </a>
             </noscript>
             <object class='tableauViz'  style='display:none;'>
                 <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                 <param name='embed_code_version' value='3' /> 
                 <param name='site_root' value='' />
-                <param name='name' value='MeanFlightDelaysbyMonth&#47;Dashboard4' />
+                <param name='name' value='MeanFlightDelaysbyDayofWeek&#47;Dashboard1' />
                 <param name='tabs' value='no' />
                 <param name='toolbar' value='yes' />
-                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyMonth&#47;Dashboard4&#47;1.png' /> 
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyDayofWeek&#47;Dashboard1&#47;1.png' /> 
                 <param name='animate_transition' value='yes' />
                 <param name='display_static_image' value='yes' />
                 <param name='display_spinner' value='yes' />
                 <param name='display_overlay' value='yes' />
                 <param name='display_count' value='yes' />
-                <param name='language' value='es-ES' />
-                <param name='filter' value='publish=yes' />
+                <param name='language' value='en-US' />
             </object>
         </div>                
         
         <script type='text/javascript'>                    
-            var divElement = document.getElementById('viz1681918361682');                    
+            var divElement = document.getElementById('viz1682113033059');                    
             var vizElement = divElement.getElementsByTagName('object')[0];                    
             if ( divElement.offsetWidth > 800 ) { 
                 vizElement.style.width='800px';
@@ -546,46 +544,7 @@ with st.container():
 
     def main():
         html_temp = """
-        <div class='tableauPlaceholder' id='viz1681917562408' style='position: relative'>
-            <noscript>
-                <a href='#'>
-                    <img alt='Dashboard 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyMonth&#47;Dashboard3&#47;1_rss.png' style='border: none' />
-                </a>
-            </noscript>
-            <object class='tableauViz'  style='display:none;'>
-                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                <param name='embed_code_version' value='3' /> 
-                <param name='site_root' value='' />
-                <param name='name' value='MeanFlightDelaysbyMonth&#47;Dashboard3' />
-                <param name='tabs' value='no' />
-                <param name='toolbar' value='yes' />
-                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyMonth&#47;Dashboard3&#47;1.png' /> 
-                <param name='animate_transition' value='yes' />
-                <param name='display_static_image' value='yes' />
-                <param name='display_spinner' value='yes' />
-                <param name='display_overlay' value='yes' />
-                <param name='display_count' value='yes' />
-                <param name='language' value='es-ES' />
-                <param name='filter' value='publish=yes' />
-            </object>
-        </div>                
-        
-        <script type='text/javascript'>                    
-            var divElement = document.getElementById('viz1681917562408');                    
-            var vizElement = divElement.getElementsByTagName('object')[0];                    
-            if ( divElement.offsetWidth > 800 ) { 
-                vizElement.style.width='800px';
-                vizElement.style.height='527px';
-            } else if ( divElement.offsetWidth > 500 ) { 
-                vizElement.style.width='800px';
-                vizElement.style.height='527px';
-            } else { 
-                vizElement.style.width='100%';
-                vizElement.style.height='727px';}                     
-            var scriptElement = document.createElement('script');                    
-            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-        </script>
+        <div class='tableauPlaceholder' id='viz1682112840957' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyHour&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MeanFlightDelaysbyHour&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyHour&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1682112840957');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
         """
         components.html(html_temp,height = 500, width = 800)
     if __name__ == "__main__":    
@@ -599,19 +558,20 @@ with st.container():
     st.write('##')
     st.write(
         '''
-        On the histogram below, temperatures between -20 and 20 degrees account for the most flight delays. Lower temperatures may cause the oil in the turbine engine to become so thick that it would be difficult to start the engine, hence causing flight delays. Under extreme heat condition, it may be harder for planes to fly, as warm air expands and is less dense, so the plane needs more fuel to transport the same amount of passengers and cargo.
+        On the histogram below, temperatures between -20 and 20 degrees account for the most flight delays. Lower temperatures may cause the oil in the turbine engine to become so thick that it would be difficult to start the engine, hence causing flight delays. Under extreme heat conditions, it may be harder for planes to fly, as warm air expands and is less dense, so the plane needs more fuel to transport the same amount of passengers and cargo.
         
         '''
     )
 
     def main():
         html_temp = """
-        <div class='tableauPlaceholder' id='viz1681958273929' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1682112914127' style='position: relative'>
             <noscript>
                 <a href='#'>
                     <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyOriginTemperatures&#47;Dashboard1&#47;1_rss.png' style='border: none' />
                 </a>
-            </noscript><object class='tableauViz'  style='display:none;'>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
                 <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                 <param name='embed_code_version' value='3' /> 
                 <param name='site_root' value='' />
@@ -624,19 +584,19 @@ with st.container():
                 <param name='display_spinner' value='yes' />
                 <param name='display_overlay' value='yes' />
                 <param name='display_count' value='yes' />
-                <param name='language' value='es-ES' />
+                <param name='language' value='en-US' />
             </object>
         </div>                
         
         <script type='text/javascript'>                    
-            var divElement = document.getElementById('viz1681958273929');                    
+            var divElement = document.getElementById('viz1682112914127');                    
             var vizElement = divElement.getElementsByTagName('object')[0];                    
             if ( divElement.offsetWidth > 800 ) { 
                 vizElement.style.width='800px';
                 vizElement.style.height='527px';
             } else if ( divElement.offsetWidth > 500 ) { 
-                vizElement.style.width='800px';v
-                izElement.style.height='527px';
+                vizElement.style.width='800px';
+                vizElement.style.height='527px';
             } else { 
                 vizElement.style.width='100%';
                 vizElement.style.height='727px';}                     
@@ -655,49 +615,52 @@ with st.container():
     st.write('##')
     st.write(
         '''
-        High wind speeds are correlated with higher average delays. Although there is no single maximum wind limit for planes, a crosswind above 40 mph and tailwind above 10 mph can cause flight delays and cancellations, which explains the distribution of mean flight delays grouped by wind speed ranges.
+        High wind speeds are correlated with higher average delays. Although there is no single maximum wind limit for planes, a crosswind above 40 mph and a tailwind above 10 mph can cause flight delays and cancellations, which explains the distribution of mean flight delays grouped by wind speed ranges.
         
         '''
     )
 
     def main():
         html_temp = """
-        <div class='tableauPlaceholder' id='viz1681919055122' style='position: relative'>
+        
+        <div class='tableauPlaceholder' id='viz1682112120034' style='position: relative'>
             <noscript>
                 <a href='#'>
-                    <img alt='Dashboard 6 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyMonth&#47;Dashboard6&#47;1_rss.png' style='border: none' />
+                    <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyOriginWindSpeed&#47;Dashboard1&#47;1_rss.png' style='border: none' />
                 </a>
             </noscript>
-            <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                 <param name='embed_code_version' value='3' /> 
                 <param name='site_root' value='' />
-                <param name='name' value='MeanFlightDelaysbyMonth&#47;Dashboard6' />
+                <param name='name' value='MeanFlightDelaysbyOriginWindSpeed&#47;Dashboard1' />
                 <param name='tabs' value='no' />
                 <param name='toolbar' value='yes' />
-                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyMonth&#47;Dashboard6&#47;1.png' /> 
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MeanFlightDelaysbyOriginWindSpeed&#47;Dashboard1&#47;1.png' /> 
                 <param name='animate_transition' value='yes' />
                 <param name='display_static_image' value='yes' />
                 <param name='display_spinner' value='yes' />
                 <param name='display_overlay' value='yes' />
                 <param name='display_count' value='yes' />
-                <param name='language' value='es-ES' />
-                <param name='filter' value='publish=yes' />
+                <param name='language' value='en-US' />
             </object>
         </div>                
         
         <script type='text/javascript'>                    
-            var divElement = document.getElementById('viz1681919055122');                    
+            var divElement = document.getElementById('viz1682112120034');                    
             var vizElement = divElement.getElementsByTagName('object')[0];                    
             if ( divElement.offsetWidth > 800 ) { 
                 vizElement.style.width='800px';
                 vizElement.style.height='527px';
             } else if ( divElement.offsetWidth > 500 ) { 
-                vizElement.style.width='800px';vizElement.style.height='527px';
+                vizElement.style.width='800px';
+                vizElement.style.height='527px';
             } else { 
-                vizElement.style.width='100%';vizElement.style.height='727px';}                     
+                vizElement.style.width='100%';
+                vizElement.style.height='727px';}                     
             var scriptElement = document.createElement('script');                    
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-            vizElement.parentNode.insertBefore(scriptElement, vizElement);               
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
         </script>
         """
         components.html(html_temp,height = 500, width = 800)
