@@ -14,10 +14,11 @@ Click this link to go to the
 
 ## Description
 
-This project contains 2 folders:
+This project contains 3 folders:
 
-- Doc contains  the project's final report and poster
-- code contains the files necessary to run the web application
+- experiments contains all python scripts used for webscrapping, data exploration, data analysis and machine learning models
+- ml_model contains the script to create the Random Forest model used by the web application
+- src contains two python scripts to run the the web application for analytics and prediction
 
 ## Installation
 
