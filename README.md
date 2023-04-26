@@ -50,7 +50,7 @@ pip install seaborn
 ## Tech:
 
 - Python 3
-- scikit-learn - Linear Regression
+- scikit-learn
 - numpy
 - pandas
 - matplotlib
